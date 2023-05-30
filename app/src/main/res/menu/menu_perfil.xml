@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_inicio"
+            android:icon="@drawable/inicio"
+            android:title="Inicio"/>
+        <item android:id="@+id/nav_item_agregarTarjeta"
+            android:icon="@drawable/card"
+            android:title="Agregar tarjeta"/>
+        <item android:id="@+id/nav_item_editarPerfil"
+            android:icon="@drawable/editar"
+            android:title="Editar Perfil"/>
+        <item android:id="@+id/nav_item_cerrarSesion"
+            android:icon="@drawable/salir"
+            android:title="Cerrar sesión"/>
+    </group>
+</menu>

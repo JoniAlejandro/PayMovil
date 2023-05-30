@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "776801715323",
+    "project_id": "movil-pago",
+    "storage_bucket": "movil-pago.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776801715323:android:ccbed3b88c0b94f7808ede",
+        "android_client_info": {
+          "package_name": "com.example.paymovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776801715323-2f6ufe5qudp7rk9cf232kd51isa824j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paymovil",
+            "certificate_hash": "520321ec5e964686e5dfcfd26a4356745bdb5659"
+          }
+        },
+        {
+          "client_id": "776801715323-frvf5mpf810d5ceu8d7p7djnofgji68d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDqiuAbPiX1baIT1xPN5k7TFqM-A287XY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776801715323-frvf5mpf810d5ceu8d7p7djnofgji68d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

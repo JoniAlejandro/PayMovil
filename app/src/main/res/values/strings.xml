@@ -1,0 +1,40 @@
+<resources>
+    //Nombre app
+    <string name="app_name">Pay Movil</string>
+    //Textos paginas principales
+    <string name="main_email">Correo electronico</string>
+    <string name="main_password">Contraseña</string>
+    <string name="main_login">Iniciar sesión</string>
+    <string name="main_logo">Compartir lugares</string>
+    <string name="main_registrarse">Crear cuenta nueva</string>
+    <string name="main_google">Continuar con Google</string>
+    <string name="prefs_file">com.example.paymovil.PREFERENCE_FILE_KEY</string>
+    //TItulo nevegacion
+    <string name="inicio">Inicio</string>
+    <string name="actividad">Actividad</string>
+    <string name="codigo_qr">QR</string>
+    //Datos perfil
+    <string name="nombre">Cargando</string>
+    //Drawer
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="aler_trans">Transferencia exitosa</string>
+    <string name="aler_transporte">Transporte publico</string>
+    <string name="aler_monto">Monto</string>
+    <string name="aler_btnSalir">Salir</string>
+    <string name="aler_titulo">Movimiento</string>
+    <string name="header_tipo">Cuenta</string>
+
+    <string name="aler_tarjeta_titulo">Warning!</string>
+    <string name="alert_tarjeta_msj">Añade una tarjeta</string>
+    <string name="aler_conductor">Campos obligatorios</string>
+    //
+    <string name="actividad_titulo">Actividades</string>
+    <string name="actividad_detalle">Detalles</string>
+    <string name="actividad_precio">Precio</string>
+    <string name="actividad_date">Date</string>
+    <string name="actividad_imagen">item_imagen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

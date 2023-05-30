@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conductor.AgregarTarjetaCondcutorFragment">
+
+
+    <EditText
+        android:id="@+id/tarjetaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="Nombre completo"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTarjeta" />
+
+    <EditText
+        android:id="@+id/tarjetaNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#2196F3"
+        android:ems="10"
+        android:hint="Numero de tarjeta"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjetaNombre" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="33dp"
+        android:text="Agregar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjetaDate" />
+
+    <EditText
+        android:id="@+id/tarjetaDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Fecha de expiración"
+        android:textAlignment="center"
+
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjetaNumero" />
+
+    <ImageView
+        android:id="@+id/imgTarjeta"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/debito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
